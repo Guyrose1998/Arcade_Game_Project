@@ -45,6 +45,7 @@ public class GameFlow {
         return animationRunner;
     }
 
+
     /**
      * getKeyboardSensor method gets the keyboard sensor.
      *
@@ -62,6 +63,24 @@ public class GameFlow {
     public GUI getGui() {
         return gui;
     }
+
+       /**
+     * closeGui method close the gui.
+     */
+    private void closeGui() {
+    try {
+        java.lang.reflect.Field frameField = GUI.class.getDeclaredField("frame");
+        frameField.setAccessible(true); 
+        javax.swing.JFrame frame = (javax.swing.JFrame) frameField.get(gui);
+        if (frame != null) {
+            frame.dispose(); 
+        }
+    } catch (Exception e) {
+        e.printStackTrace(); 
+    }
+}
+
+
 
     /**
      * getScore method gets the score.
@@ -94,7 +113,7 @@ public class GameFlow {
                             KeyboardSensor.SPACE_KEY, loseScreen));
                     if (level.shouldStop()) {
                         // the player pressed the space key
-                       // getGui().close();
+                      closeGui();
                     }
                 }
             }
@@ -106,7 +125,7 @@ public class GameFlow {
                             KeyboardSensor.SPACE_KEY, winScreen));
                     if (level.shouldStop()) {
                         // the player pressed the space key
-                      //  getGui().close();
+                        closeGui();
                     }
                 }
 

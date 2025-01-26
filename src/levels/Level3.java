@@ -39,10 +39,12 @@ public class Level3 implements LevelInformation {
      * The constant Velocity of ball2.
      */
     public static final Velocity BALL2_V = new Velocity(-3, 5);
+
     /**
      * The constant PADDLE_WIDTH.
      */
-    public static final int PADDLE_WIDTH = 150;
+    public static final int PADDLE_WIDTH = 450;
+
     /**
      * The constant BORDER_SIZE.
      */

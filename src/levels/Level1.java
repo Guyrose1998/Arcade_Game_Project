@@ -36,7 +36,7 @@ public class Level1 implements LevelInformation {
     /**
      * The constant Velocity of ball1.
      */
-    public static final Velocity BALL1_V = new Velocity(6, 4);
+    public static final Velocity BALL1_V = new Velocity(0, 4);
     /**
      * The constant PADDLE_SPEED.
      */
