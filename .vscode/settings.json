@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "ass6example.jar",
+        "biuoop-1.4.jar",
+        "checkstyle-8.44-all.jar"
+    ]
+}
