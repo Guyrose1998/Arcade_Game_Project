@@ -14,16 +14,11 @@ This project is an arcade-style game developed as part of an Object-Oriented Pro
 3. **Run the Game**:
    - Execute the game using the `run` target:
      ```bash
-    ant run
+     ant run
      ```
    - Alternatively, use the `.jar` file with:
      ```bash
      java -jar ass6example.jar
-     ```
-4. **Clean Build** (Optional):
-   - Remove compiled files using:
-     ```bash
-     ant clean
      ```
 
 ## Gameplay Description
@@ -35,14 +30,14 @@ This project is an arcade-style game developed as part of an Object-Oriented Pro
 #### Level 2: London Bridge
 ![Level 2 Screenshot] <img src="Proof/Screenshot 2025-01-27 001801.png">
 #### Level 3: Last Level
-![Level 3 Screenshot] <img src="Proof/Screenshot 2025-01-27 001831.png>">
+![Level 3 Screenshot] <img src="/Proof/Screenshot 2025-01-27 001831.png">
 
 ### Screens
 
 #### Victory Screen
-![Victory Screen Screenshot]<img src="!<Proof/Screenshot 2025-01-27 002731.png>">
+![Victory Screen Screenshot] <img src="<Proof/Screenshot 2025-01-27 002731.png">
 #### Game Over Screen
-![Game Over Screen Screenshot]<img src="<Proof/Screenshot 2025-01-27 001741.png>">
+![Game Over Screen Screenshot]<img src="<Proof/Screenshot 2025-01-27 001741.png">
 
 ## Project Structure
 The project is organized into several packages, each handling a specific aspect of the game logic. Below is a detailed breakdown of the structure:
