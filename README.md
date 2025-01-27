@@ -26,18 +26,18 @@ This project is an arcade-style game developed as part of an Object-Oriented Pro
 ### Levels
 
 #### Level 1: Direct Hit
-![Level 1 Screenshot] <img src="/Proof/Screenshot 2025-01-26 234001.png">
+ <img src="/Proof/Screenshot 2025-01-26 234001.png">
 #### Level 2: London Bridge
-![Level 2 Screenshot] <img src="Proof/Screenshot 2025-01-27 001801.png">
+ <img src="Proof/Screenshot 2025-01-27 001801.png">
 #### Level 3: Last Level
-![Level 3 Screenshot] <img src="/Proof/Screenshot 2025-01-27 001831.png">
+<img src="/Proof/Screenshot 2025-01-27 001831.png">
 
 ### Screens
 
 #### Victory Screen
-![Victory Screen Screenshot] <img src="<Proof/Screenshot 2025-01-27 002731.png">
+ <img src="Proof/Screenshot 2025-01-27 002731.png">
 #### Game Over Screen
-![Game Over Screen Screenshot]<img src="<Proof/Screenshot 2025-01-27 001741.png">
+<img src="Proof/Screenshot 2025-01-27 001741.png">
 
 ## Project Structure
 The project is organized into several packages, each handling a specific aspect of the game logic. Below is a detailed breakdown of the structure:
