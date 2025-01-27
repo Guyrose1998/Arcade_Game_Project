@@ -36,6 +36,7 @@ This project is an arcade-style game developed as part of an Object-Oriented Pro
 
 #### Victory Screen
  <img src="Proof/Screenshot 2025-01-27 002731.png">
+ 
 #### Game Over Screen
 <img src="Proof/Screenshot 2025-01-27 001741.png">
 
